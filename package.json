@@ -1,0 +1,30 @@
+{
+  "name": "url-shortener",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Merkrow/url-shortener.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Merkrow/url-shortener/issues"
+  },
+  "homepage": "https://github.com/Merkrow/url-shortener#readme",
+  "dependencies": {
+    "async-redis": "^1.1.7",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "nanoid": "^3.1.16"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
